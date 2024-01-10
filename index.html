@@ -1,0 +1,48 @@
+<!-- https://www.youtube.com/@CodeWithHonsmart
+TikTok @CodeWithHonsmart 
+www.codewithhonsmart.com -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript analog UTC clock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>Responsive Analog and Digital Clocks</h1>
+        <div id="analogclock">
+            <div id="minmarkers" class="minmarks"></div>
+            <div id="clocknumbers"></div>
+            <div id="clocknumbers24"></div>
+            <div id="brand">CodeWithHonsmart</div>
+            <button type="button" id="soundtoggle" class="speaker" aria-pressed="false">
+                <span class="speakerlabel sr-only">sound toggle, currently sound is off</span>
+                <span class="speakertriangle"></span>
+                <span class="speakerbar"></span>
+                <span class="speakerwave speakerwave--1"></span>
+                <span class="speakerwave speakerwave--2"></span>
+                <span class="speakerwave speakerwave--3"></span>
+            </button>
+            <div id="hourscircle">
+                <div id="hourshand"></div>
+            </div>
+            <div id="minutescircle">
+                <div id="minuteshand"></div>
+            </div>
+            <div id="secondscircle">
+                <div id="secondshand"></div>
+            </div>
+            <div id="nut"></div>
+        </div>
+        <div id="digitalclock"></div>
+        <p class="comment">Click the speaker button on the analog clock to start and stop the ticking sound.</p>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
